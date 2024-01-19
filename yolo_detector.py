@@ -19,7 +19,7 @@ def draw_boxes(frame, boxes):
 
         # Detect only cat class
         if class_name == "cat":
-        # Draw bounding box
+            # Draw bounding box
             annotator.box_label(
             box=coordinator, label=class_name, color=colors(class_id, True)
             )
